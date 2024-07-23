@@ -1,0 +1,42 @@
+/* Courses.css */
+
+.courses {
+     /* Set width to 88% */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    text-align: center;
+  }
+  
+  .courses h2 {
+    color: #333333; /* Dark text color */
+    margin-bottom: 20px;
+  }
+  
+  .courses-stream {
+    margin-top: 20px;
+  }
+  
+  .courses-stream ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .courses-stream li {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333333; /* Dark text color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .courses-stream li:hover {
+    background-color: #e0e0e0; /* Slightly darker background on hover */
+  }
+  

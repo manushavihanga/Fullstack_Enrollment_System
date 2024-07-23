@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .my-4 {
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #282828;
+    color: white;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table thead th {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: rgb(52, 51, 51);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .btn-primary {
+    background-color: #333;
+  }
+  
+  .btn-outline-primary {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: black;
+  }
+  
+  .btn-danger:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  

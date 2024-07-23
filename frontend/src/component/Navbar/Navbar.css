@@ -1,0 +1,68 @@
+.nav {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0px 50px;
+    color: rgb(15, 14, 14);
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.nav-menu {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    gap: 60px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu a.active {
+    font-weight: 500;
+    border-bottom: 2px solid #0b0b0c;
+    padding-bottom: 2px;
+    transition: color 0.3s, border-bottom 0.3s; 
+}
+
+.nav-menu .signin {
+    margin: 3px;
+    padding: 3px 6px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-menu .signin:hover {
+    background-color: #f0f0f0; 
+    color: #000;
+}
+
+.nav-menu .signin:active {
+    background-color: #e0e0e0; 
+    color: #000; 
+}

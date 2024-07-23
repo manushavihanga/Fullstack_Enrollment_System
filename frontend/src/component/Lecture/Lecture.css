@@ -1,0 +1,78 @@
+.lecture-container {
+  width: 88%;
+  margin: 0 auto; 
+  padding: 10px 0;
+}
+
+.lecture {
+  background-color: #ffffff; /* White background */
+  border-radius: 0px px 8px 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  padding: 30px;
+  text-align: center;
+}
+
+.lecture-title {
+  color: #333333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.lecture-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+  gap: 20px; /* Gap between grid items */
+}
+
+.food-item {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.food-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.food-name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #333333; /* Dark text color */
+}
+
+.food-description {
+  margin-bottom: 5px;
+  color: #555555; /* Medium gray text color */
+}
+
+.food-price {
+  font-weight: bold;
+  color: #272626;
+}
+
+.food-category {
+  font-style: italic;
+  color: #777777; /* Light gray text color */
+}
+
+button {
+  background-color: #626362; /* Green background */
+  border: none;             /* Remove borders */
+  color: white;             /* White text */
+  padding: 10px 20px;       /* Some padding */
+  text-align: center;       /* Center the text */
+  text-decoration: none;    /* Remove underline */
+  display: inline-block;    /* Make the button inline */
+  font-size: 16px;          /* Increase font size */
+  margin: 10px 0;           /* Some margin */
+  cursor: pointer;          /* Pointer/hand icon on hover */
+  border-radius: 8px;       /* Rounded corners */
+  transition: background-color 0.4s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #131313; /* Darker green on hover */
+}

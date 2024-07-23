@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+.header {
+    background: transparent;
+    height: 40vw;
+    width: 88%;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.hero-text p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(226, 224, 224);
+    font-size:75px ;
+    font-weight: 500;
+    line-height: 130px;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+}
+
+.hero-text.white {
+    color: rgb(226, 224, 224);
+}
+
+.hero-text.black {
+    color: rgb(226, 224, 224);
+}
+
+.hero-text.gray {
+    color: rgb(226, 224, 224);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.hero-dots {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 23px; 
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 20px; 
+}
+
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: #f9f7f7;
+    border-radius: 7.5px;
+    cursor: pointer;
+    
+}
+.hero-dot.black{
+    background: rgb(16, 16, 15);
+}
+
+

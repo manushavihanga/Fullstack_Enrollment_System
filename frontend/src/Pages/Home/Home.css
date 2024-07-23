@@ -1,0 +1,11 @@
+.home {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the home component fills the viewport */
+  background-color: #f0f0f0; /* Example background color */
+  font-family: Arial, sans-serif; /* Example font family */
+}
+  
